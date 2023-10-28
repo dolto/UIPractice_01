@@ -33,6 +33,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/str_log_toast"/>
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_age"/>
+        <Button
+            android:id="@+id/btnNameToast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_log_toast"/>
 
 
     </LinearLayout>

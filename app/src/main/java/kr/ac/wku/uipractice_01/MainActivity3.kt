@@ -43,5 +43,10 @@ class MainActivity3 : AppCompatActivity() {
                 else -> {Toast.makeText(this, "뭐야.", Toast.LENGTH_SHORT).show()}
             }
         }
+
+        binding.btnNameToast.setOnClickListener {
+            val Name = binding.editName.text.toString();
+            Toast.makeText(this, "${Name}님 환영합니다.", Toast.LENGTH_SHORT).show()
+        }
     }
 }
