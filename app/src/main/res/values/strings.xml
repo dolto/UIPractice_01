@@ -5,4 +5,10 @@
     <string name="id_is_email">아이디는 이메일 형식입니다</string>
     <string name="pls_input_pw">비밀번호를 입력해주세요</string>
     <string name="recommend_name">추천인</string>
+    <string name="str_register">가입하기</string>
+    <string name="str_agree">이용약관에 동의합니다.</string>
+    <string name="str_sex">성별</string>
+    <string name="man">남자</string>
+    <string name="woman">여자</string>
+    <string name="unknown">알리지 않음</string>
 </resources>
