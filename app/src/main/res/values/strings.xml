@@ -2,4 +2,7 @@
     <string name="app_name">UIPractice_01</string>
     <string name="hello_world">안녕하세요</string>
     <string name="hello_in">정말로 반갑습니다.</string>
+    <string name="id_is_email">아이디는 이메일 형식입니다</string>
+    <string name="pls_input_pw">비밀번호를 입력해주세요</string>
+    <string name="recommend_name">추천인</string>
 </resources>
