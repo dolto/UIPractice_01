@@ -11,4 +11,5 @@
     <string name="man">남자</string>
     <string name="woman">여자</string>
     <string name="unknown">알리지 않음</string>
+    <string name="str_cancle">취소</string>
 </resources>

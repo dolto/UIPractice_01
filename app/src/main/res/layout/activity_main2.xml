@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2"
     android:orientation="vertical"
+    android:layout_margin="15dp"
     >
     <LinearLayout
         android:layout_width="match_parent"
@@ -41,7 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="PW"
-            android:layout_marginRight="3dp"/>
+            android:layout_marginRight="10dp"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -57,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/recommend_name"
-            android:layout_marginRight="3dp"/>
+            android:layout_marginRight="10dp"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -97,10 +98,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/str_agree"/>
-
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/str_register"/>
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/str_cancle"
+            android:layout_weight="1"
+            android:layout_marginRight="2.5dp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/str_register"
+            android:layout_weight="2"
+            android:layout_marginLeft="2.5dp"/>
+
+    </LinearLayout>
 
 </LinearLayout>
