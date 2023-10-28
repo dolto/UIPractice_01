@@ -28,7 +28,7 @@ class MainActivity3 : AppCompatActivity() {
             Toast.makeText(this, myName, Toast.LENGTH_SHORT).show()
         }
         binding.btnCondition.setOnClickListener {
-            val userAge = 25;
+            val userAge = binding.editAge.text.toString().toInt();
             when (userAge) {
                 in 20..24 -> {
                     Toast.makeText(this, "이십대 초반입니다", Toast.LENGTH_SHORT).show()

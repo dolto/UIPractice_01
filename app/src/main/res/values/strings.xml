@@ -14,4 +14,5 @@
     <string name="str_cancle">취소</string>
     <string name="str_log">로그 찍어보기</string>
     <string name="str_log_toast">토스트 띄우기</string>
+    <string name="input_age">나이를 입력해주세요</string>
 </resources>
