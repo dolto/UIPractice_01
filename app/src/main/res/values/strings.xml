@@ -12,4 +12,6 @@
     <string name="woman">여자</string>
     <string name="unknown">알리지 않음</string>
     <string name="str_cancle">취소</string>
+    <string name="str_log">로그 찍어보기</string>
+    <string name="str_log_toast">토스트 띄우기</string>
 </resources>

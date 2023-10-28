@@ -1,11 +1,16 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    //id("org.jetbrains.kotlin.android.extensions")
 }
 
 android {
     namespace = "kr.ac.wku.uipractice_01"
     compileSdk = 34
+
+    dataBinding{
+        enable=true
+    }
 
     defaultConfig {
         applicationId = "kr.ac.wku.uipractice_01"
