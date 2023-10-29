@@ -8,7 +8,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val intent = Intent(this, MainActivity5::class.java)
+        val intent = Intent(this, MainActivity7::class.java)
         startActivity(intent)
     }
 }
